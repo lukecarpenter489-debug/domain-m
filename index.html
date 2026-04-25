@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Domain Marketplace</title><link rel="stylesheet" href="/styles.css"></head><body><div class="topbar"><div class="nav">
+<div class="logo"><span>◉</span> DomainMarket</div>
+<div class="links">
+<a href="/" class="active">Home</a><a href="/buy.html">Buy Domains</a><a href="/sell.html">Sell Domains</a><a href="/appraisals.html">Appraisals</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a>
+</div><div class="auth"><a href="/register.html">Register</a><a href="/login.html">Log in</a></div></div></div>
+<section class="hero"><h1>FIND AND SELL PREMIUM DOMAIN NAMES</h1><p>Browse available web addresses or list your own domains for sale.</p>
+<div class="searchbar"><input id="domainSearch" placeholder="Search domain names, e.g. brad.crypto"><button onclick="searchDomain()">SEARCH</button></div>
+<div class="smalllinks">Advanced Search · Popular Extensions</div></section>
+<div class="wrap">
+<div class="notice"><b>Netlify API status:</b> <span id="apiStatus">checking...</span></div>
+<div class="grid">
+<div class="card"><h2>Browse Domains</h2><div class="inside"><div class="filters"><select><option>All domains</option></select><select><option>Sort by</option></select></div><table class="table"><thead><tr><th>Domain</th><th>Status</th><th class="price">Price</th></tr></thead><tbody><tr><td colspan="3">No fake listings. Search a real domain above.</td></tr></tbody></table></div></div>
+<div class="card"><h2>Domain Lookup</h2><div class="inside"><p>Enter an Unstoppable domain above to view live domain data.</p><pre id="result" class="result">Search results will appear here.</pre></div></div>
+<div class="card"><h2>Submit a Domain</h2><div class="inside form"><input placeholder="Domain name"><div class="row"><input placeholder="Price"><select><option>Category</option></select></div><textarea placeholder="Description"></textarea><button class="btn">Submit Domain</button></div></div>
+<div class="card"><h2>Dashboard</h2><div class="inside"><table class="table"><tr><th>Domain</th><th>Status</th><th>Action</th></tr><tr><td colspan="3">No listings yet.</td></tr></table></div></div>
+</div></div><div class="footer">© 2026 DomainMarket. Built for Netlify.</div><script src="/app.js"></script></body></html>

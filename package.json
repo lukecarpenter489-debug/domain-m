@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "echo building"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
